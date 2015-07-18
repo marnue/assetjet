@@ -17,7 +17,7 @@ from _winreg import *
 # tweak as necessary
 version = sys.version[:3]
 installpath = sys.prefix
-installpath = "D:\WinPython\python-2.7.3.amd64"
+installpath = "D:\WinPython\python-2.7.3.amd64" #须自行修改
 
 regpath = "SOFTWARE\\Python\\Pythoncore\\%s\\" % (version)
 installkey = "InstallPath"
